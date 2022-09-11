@@ -14,7 +14,7 @@ function App() {
 			<main>
 				<BrowserRouter>
 					<Routes>
-						<Route path='/' element={<HomeScreen />} />
+						<Route path='/' element={<HomeScreen hero={hero} hitw={hitw} />} />
 					</Routes>
 				</BrowserRouter>
 			</main>

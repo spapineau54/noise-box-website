@@ -8,9 +8,15 @@
     color: #fafafa;
 }
 
-nav {
-    background-image: url('./images/destroy_hero.jpeg');
-    background-size:contain;
-    background-repeat: no-repeat;
-
+.logo {
+    animation: rotation 5s infinite linear;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
