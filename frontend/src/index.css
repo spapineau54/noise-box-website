@@ -7,3 +7,10 @@
     background-color: black;
     color: #fafafa;
 }
+
+nav {
+    background-image: url('./images/destroy_hero.jpeg');
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
