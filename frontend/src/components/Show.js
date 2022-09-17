@@ -1,11 +1,13 @@
 import React from "react";
 import Card from "./Card";
 
-const Show = () => {
+const Show = ({ show }) => {
 	return (
 		<>
 			<Card>
-				<h1>Show Name</h1>
+				<h1>{show.title}</h1>
+				<h2></h2>
+				<div></div>
 			</Card>
 		</>
 	);
